@@ -39,7 +39,7 @@ function App() {
       >
         <Toast.Header>
           <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
-          <strong className="mr-auto">{notification.title()}</strong>
+          <strong className="mr-auto">{notification.title}</strong>
           <small>just now</small>
         </Toast.Header>
         <Toast.Body>{notification.body}</Toast.Body>
