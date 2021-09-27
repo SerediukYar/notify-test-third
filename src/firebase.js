@@ -12,7 +12,8 @@ const firebaseConfig = {
 
 let getToken;
 let onMessageListener;
-if (!!window.Notification) {
+alert(firebase.messaging.isSupported());
+if (firebase.messaging.isSupported()) {
   firebase.initializeApp(firebaseConfig);
   const messaging = firebase.messaging();
 
