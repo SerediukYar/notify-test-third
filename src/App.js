@@ -9,7 +9,7 @@ function App() {
   const [show, setShow] = useState(false);
   const [notification, setNotification] = useState({ title: "", body: "" });
   const [isTokenFound, setTokenFound] = useState(false);
-  test2 && test2(setTokenFound);
+  //test2 && test2(setTokenFound);
 
   test3 && test3()
     .then((payload) => {
